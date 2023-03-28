@@ -90,7 +90,6 @@ public class DigproApplication extends JFrame {
         		e -> updateMap());
         
         topToolBar.add(reloadButton);
-        
         topToolBar.add(new ToolBarButton("About", "Display info about dev team", 
         		e -> about(this)));
         
